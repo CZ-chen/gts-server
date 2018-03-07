@@ -3,7 +3,7 @@ FROM sonatype/nexus3
 WORKDIR /tmp
 
 USER root
-RUN yum install -y wget,unzip
+RUN yum install -y wget unzip
 
 #安装maven
 RUN wget 'http://mirrors.tuna.tsinghua.edu.cn/apache/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.zip'
