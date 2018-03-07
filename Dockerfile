@@ -8,5 +8,5 @@ RUN unzip apache-maven-3.5.2-bin.zip
 RUN mv /tmp/apache-maven-3.5.2 /opt/maven
 ADD /data /data
 RUN export PATH=$PATH:/opt/maven/bin
-rm -f /tmp/apache-maven-3.5.2-bin.zip
+RUN rm -f /tmp/apache-maven-3.5.2-bin.zip
 
