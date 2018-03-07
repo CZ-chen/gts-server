@@ -2,6 +2,7 @@ FROM sonatype/nexus3
 
 WORKDIR /tmp
 
+USER root
 RUN yum install wget
 
 #安装maven
